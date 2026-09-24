@@ -24,9 +24,9 @@ class MainActivity : AppCompatActivity() {
         val btnToFourth = findViewById<Button>(R.id.btnToFourth)
         btnToFourth.setOnClickListener {
             val intent = Intent(this, FourthActivity::class.java)
-            intent.putExtra("NAME", "Nabila")
-            intent.putExtra("FROM", "Jakarta")
-            intent.putExtra("AGE", 20)
+            intent.putExtra("name", "Politeknik Caltex Riau")
+            intent.putExtra("from", "Rumbai")
+            intent.putExtra("age", 20)
             startActivity(intent)
         }
     }
